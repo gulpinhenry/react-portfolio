@@ -1,7 +1,12 @@
 import React from "react";
+const styles = {
+    container: {
+        paddingTop: `50vh`
+    }
+}
 function Main() {
   return (
-    <div className="section white">
+    <div className="section white" style = {styles.container}>
       <div className="row container">
         <h2 className="header">Parallax</h2>
         <p className="grey-text text-darken-3 lighten-3">
