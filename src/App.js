@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-// First we import our Alert component from the components folder
 
 import Nav from "./components/Nav";
 import Cover from "./components/Cover";

@@ -2,10 +2,6 @@ import React from "react";
 import coverPic from "../images/cover.jpg";
 const styles = {
   container: {
-    // backgroundImage: `url("./images/cover.jpg")`,
-    // backgroundSize: `cover`,
-    // backgroundPosition: `50% 60%`,
-    // backgroundBlendMode: "lighten",
     height: `100vh`,
   },
   coverPhoto: {

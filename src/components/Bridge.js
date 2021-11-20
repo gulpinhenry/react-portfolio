@@ -25,11 +25,11 @@ const styles = {
   bio: {
     color: "white",
     margin: "0 10%",
-    fontSize: "100%",
+    fontSize: "0.94vw",
     lineHeight: "200%"
   },
   btn: {
-    margin: "0 40%",
+    margin: "0 35%",
     height: "40px",
     background: "transparent",
     textAlign: "center",
@@ -38,8 +38,9 @@ const styles = {
     justifyContent: "center",
     color: "white",
     border: "2px solid green",
+    marginBottom: "20px"
   },
-  //   make mobile responsive to change height
+  //   make mobile responsive to change height, width, text size
 };
 function Bridge() {
   return (
