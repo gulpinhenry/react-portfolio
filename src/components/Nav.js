@@ -13,9 +13,9 @@ const styles = {
 
 function Nav() {
   return (
-    <fragment>
+    <React.Fragment>
       <nav style={styles.nav}>
-        <div class="nav-wrapper">
+        <div className="nav-wrapper">
           <a href="#" className="brand-logo">
             <img
               id="logo"
@@ -25,9 +25,9 @@ function Nav() {
             ></img>
           </a>
           <a href="#" data-target="mobile-demo" className="sidenav-trigger">
-            <i class="material-icons">≡</i>
+            <i className="material-icons">≡</i>
           </a>
-          <ul class="right hide-on-med-and-down">
+          <ul className="right hide-on-med-and-down">
             <li>
               <a href="#">Home</a>
             </li>
@@ -43,7 +43,7 @@ function Nav() {
         </div>
       </nav>
 
-      <ul class="sidenav" id="mobile-demo">
+      <ul className="sidenav" id="mobile-demo">
         <li>
           <a href="#">Home</a>
         </li>
@@ -56,7 +56,7 @@ function Nav() {
           {/* add some onclick stuff? */}
         </li>
       </ul>
-    </fragment>
+    </React.Fragment>
   );
 }
 

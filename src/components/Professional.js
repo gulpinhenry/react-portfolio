@@ -1,9 +1,10 @@
 import React from "react";
 import bg from "../images/17133733.jpg"
+// find a longer and larger picture
 const styles = {
   container: {
     textAlign: "center",
-    minHeight: "160vh",
+    minHeight: "100vh",
   },
   pad: {
     paddingTop: `50vh`,
@@ -19,7 +20,7 @@ const styles = {
 
 function Professional() {
   return (
-    <fragment>
+
       <div
         className="parallax-container"
         style={styles.container}
@@ -36,7 +37,7 @@ function Professional() {
             {/* add languages here */}
         </div>
       </div>
-    </fragment>
+
   );
 }
 

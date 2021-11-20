@@ -1,11 +1,13 @@
 import React from "react";
-import Bridge from "./Bridge";
+
 import Professional from "./Professional";
+import Portfolio from "./Portfolio";
 
 function Main() {
   return (
     <div>
       <Professional />
+      <Portfolio />
     </div>
   );
 }
