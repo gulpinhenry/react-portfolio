@@ -1,5 +1,5 @@
 import React from "react";
-
+import coverPic from "../images/cover.jpg";
 const styles = {
   container: {
     // backgroundImage: `url("./images/cover.jpg")`,
@@ -25,7 +25,7 @@ function Cover() {
       <div className="parallax">
       
         <img
-          src="./images/cover.jpg"
+          src={coverPic}
           alt="henry with a ferris wheel"
           style={styles.coverPhoto}
         ></img>

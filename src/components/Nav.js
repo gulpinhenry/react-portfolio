@@ -1,12 +1,13 @@
 import React from "react";
+import logo from "../images/logoblack.JPG";
 
 const styles = {
   nav: {
     backgroundColor: "black",
-    height: 56,
+    height: 70,
   },
   logo: {
-    maxHeight: 50,
+    maxHeight: 65,
   },
 };
 
@@ -18,7 +19,7 @@ function Nav() {
           <a href="#" className="brand-logo">
             <img
               id="logo"
-              src="./images/logoblack.JPG"
+              src={logo}
               alt="henrykam logo"
               style={styles.logo}
             ></img>

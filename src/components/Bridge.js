@@ -1,4 +1,6 @@
 import React from "react";
+import resume from "../assets/Resume-Henry.pdf";
+import logo from "../images/logoblack.JPG";
 
 const styles = {
   container: {
@@ -42,7 +44,7 @@ const styles = {
 function Bridge() {
   return (
     <div style={styles.container}>
-      <img src="./images/logoblack.JPG" alt="logo" style={styles.logo}></img>
+      <img src={logo} alt="logo" style={styles.logo}></img>
       <h6 style={styles.bio}>
         Aspiring full stack web developer utilizing an engineering philosophy to
         optimize servers and databases to increase website functionality.
@@ -56,7 +58,7 @@ function Bridge() {
         my passion for web development as well as my MERN stack expertise to
         engineer effective web applications.
       </h6>
-      <a href="./assets/Resume-Henry.pdf" target="_blank" style={styles.btn}>
+      <a href={resume} target="_blank" style={styles.btn}>
         Download Resume
       </a>
       {/* add some onclick feature idk */}
