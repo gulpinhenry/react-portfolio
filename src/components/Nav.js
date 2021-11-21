@@ -32,8 +32,8 @@ function Nav() {
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">Portfolio</a>
-              {/* add some onclick stuff? */}
+              <a href="#portfolio">Portfolio</a>
+              {/* add some onclick stuff for slow scrolling? */}
             </li>
             <li>
               <a href="#">Contact</a>
@@ -48,7 +48,7 @@ function Nav() {
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#">Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
           {/* add some onclick stuff? */}
         </li>
         <li>
