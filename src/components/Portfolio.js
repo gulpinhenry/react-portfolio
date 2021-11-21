@@ -1,4 +1,4 @@
-import { textareaAutoResize } from "materialize-css";
+
 import React from "react";
 import art from "../images/21rP.gif";
 import moonbase from "../images/sleep-moon.gif";
@@ -15,6 +15,9 @@ const styles = {
   list: {
     display: "flex",
     justifyContent: "center"
+  },
+  hover: {
+    // onMouse Over?
   }
 };
 function Portfolio() {
@@ -22,19 +25,19 @@ function Portfolio() {
     <div id="portfolio" className="section white" style={styles.ht}>
       <div className="row container">
         <h2 className="header">Portfolio</h2>
-        <a href="https://github.com/gulpinhenry" target="_blank">
-          <p style={styles.subtitle} className="grey-text text-darken-3 lighten-3">
+        <a href="https://github.com/gulpinhenry" target="_blank" rel="noreferrer">
+          <h5 style={styles.subtitle} className="grey-text text-darken-3 lighten-3">
             My Latest Work. See More
-          </p>
+          </h5>
         </a>
         <ul style = {styles.list}>
           <li>
             <a
               href="https://argibson02.github.io/3d-gallery-walk/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
-                class="materialboxed"
+                style = {styles.hover}
                 width="200"
                 height = "200"
                 src={art}
@@ -45,10 +48,10 @@ function Portfolio() {
           <li>
             <a
               href="https://guarded-chamber-67294.herokuapp.com/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
-                class="materialboxed"
+                style = {styles.hover}
                 width="200"
                 height = "200"
                 src={moonbase}
@@ -59,10 +62,10 @@ function Portfolio() {
           <li>
             <a
               href="https://workout-tracker-henrykam.herokuapp.com/?id=6193841fe9e42e14e8abf101"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
-                class="materialboxed"
+                style = {styles.hover}
                 width="200"
                 height = "200"
                 src={workout}

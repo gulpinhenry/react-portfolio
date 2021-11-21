@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Cover from "./components/Cover";
 import Main from "./components/Main";
 import Bridge from "./components/Bridge";
+import Footer from "./components/Footer"
 
 // import Materialize
 
@@ -15,11 +16,13 @@ function App() {
     M.AutoInit();
   });
   return (
+    
     <div>
       <Nav />
       <Cover />
       <Bridge />
       <Main />
+      <Footer />
     </div>
   );
 }

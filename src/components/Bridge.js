@@ -38,7 +38,8 @@ const styles = {
     justifyContent: "center",
     color: "white",
     border: "2px solid green",
-    marginBottom: "20px"
+    marginBottom: "20px",
+    zIndex: 5
   },
   //   make mobile responsive to change height, width, text size
 };
@@ -60,7 +61,7 @@ function Bridge() {
         engineer effective web applications.
       </h6>
       <a href={resume} target="_blank" style={styles.btn}>
-        Download Resume
+        Resume
       </a>
       {/* add some onclick feature idk */}
     </div>
