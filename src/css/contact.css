@@ -1,10 +1,37 @@
+#flex-cont{
+    display: flex;
+    justify-content: space-evenly;
+    height: 80%;
+}
 .contact-el{
     color:white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    border: 2px solid red;
-    min-width: 35%;
+    justify-content: start;
+    /* border: 2px solid red; */
+    max-width: 40%;
     margin: 5% auto;
-    margin-bottom: 10%;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+
+}
+.contact-el h6{
+    min-height: 80px;
+}
+#icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#icons li{
+    margin: 5%;
+}
+#icons a{
+    all:unset;
+}
+#email-text{
+    margin-bottom: 0;
+
 }
