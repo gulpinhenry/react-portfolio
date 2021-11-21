@@ -7,10 +7,13 @@ const styles = {
   ht: {
     height: "80vh",
     paddingTop: "80px",
-    textAlign: "center"
+    textAlign: "center",
+    backgroundColor: "#eee1b3",
+    color: "#330036"
   },
   subtitle: {
-    paddingBottom: "30px"
+    paddingBottom: "30px",
+    color: "#330036"
   },
   list: {
     display: "flex",
@@ -22,7 +25,7 @@ const styles = {
 };
 function Portfolio() {
   return (
-    <div id="portfolio" className="section white" style={styles.ht}>
+    <div id="portfolio" className="section" style={styles.ht}>
       <div className="row container">
         <h2 className="header">Portfolio</h2>
         <a href="https://github.com/gulpinhenry" target="_blank" rel="noreferrer">

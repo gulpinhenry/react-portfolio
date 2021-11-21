@@ -5,7 +5,7 @@ const styles = {
     paddingTop: "80px",
     textAlign: "center",
     backgroundColor: "#38182f",
-    minHeight: "160vh",
+    minHeight: "190vh",
   },
 };
 

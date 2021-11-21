@@ -1,0 +1,10 @@
+.contact-el{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid red;
+    min-width: 35%;
+    margin: 5% auto;
+    margin-bottom: 10%;
+}
