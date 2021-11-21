@@ -1,6 +1,8 @@
 import React from "react";
 import "../css/contact.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 const styles = {
   container: {
@@ -13,25 +15,35 @@ const styles = {
     width: `50vw`,
     border: `2px solid yellow`,
     textAlign: "justify",
-    backgroundColor: "#111111",
+    backgroundColor: "#2f394d",
     display: "flex",
     justifyContent: "space-evenly",
   },
 };
 function Contact() {
   return (
-    <div style={styles.container}>
-      <div className = "contact-el">
+    <React.Fragment>
+      <div style={styles.container}>
+        <div className="contact-el">
           <h1>hi</h1>
+        </div>
+        <form className="contact-el"></form>
+        {/* add some onclick feature idk */}
       </div>
-      <form className = "contact-el"></form>
-      =<div id = "icons">
-          <ul>
-          <FontAwesomeIcon icon={['fab', 'google']} />
-          </ul>
+      <div id="icons">
+        <ul>
+          <li>
+            <AiOutlineMail />
+          </li>
+          <li>
+            <FaGithub />
+          </li>
+          <li>
+            <FaLinkedin />
+          </li>
+        </ul>
       </div>
-      {/* add some onclick feature idk */}
-    </div>
+    </React.Fragment>
   );
 }
 export default Contact;
