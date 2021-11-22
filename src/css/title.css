@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+#sub-text{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title-text {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: purple;
+  font-size: 124px;
+  letter-spacing: 8px;
+  cursor: pointer;
+}
+
+#title-text::before {
+  content: "HENRY KAM";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+#title-text::after {
+  content: "HENRY KAM";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+

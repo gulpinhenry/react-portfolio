@@ -1,5 +1,6 @@
 import React from "react";
 import coverPic from "../images/cover.jpg";
+import Title from "./Title"
 const styles = {
   container: {
     height: `100vh`,
@@ -9,15 +10,6 @@ const styles = {
     objectFit: "cover",
     zIndex: -1
   },
-  inFront: {
-      zIndex: 5,
-      margin: "20px auto",
-      color: "green"
-  },
-  textStyling: {
-      marginTop: "10%",
-      color: "green"
-  }
 };
 function Cover() {
   return (
@@ -29,9 +21,9 @@ function Cover() {
           alt="henry with a ferris wheel"
           style={styles.coverPhoto}
         ></img>
+        <Title />
+
         
-        <h1 style = {styles.textStyling}>Henry Kam</h1>
-        <h3 style = {styles.inFront}>Student. Scientist. Researcher.</h3>
       </div>
     </div>
   );
