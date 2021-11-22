@@ -4,11 +4,11 @@ import Professional from "./Professional";
 import Portfolio from "./Portfolio";
 import Experience from "./Experience";
 import Contact from "./Contact";
-import reactDom from "react-dom";
+
 
 const styles = {
   bg :{
-    //backgroundColor: "yellow",
+    backgroundColor: "transparent",
     zIndex: -5
 //  how to make experience show up above
   }

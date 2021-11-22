@@ -43,6 +43,7 @@ const styles = {
   },
   //   make mobile responsive to change height, width, text size
 };
+
 function Bridge() {
   return (
     <div style={styles.container}>

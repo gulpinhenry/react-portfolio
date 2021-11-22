@@ -13,12 +13,12 @@ function Experience() {
   return (
     <section id="exp" style={styles.ht}>
       <h2 className="header">Experience</h2>
-      <div class="containerexp">
-        <div class="timeline">
+      <div className="containerexp">
+        <div className="timeline">
           <ul>
             <li>
-              <div class="timeline-content">
-                <p class="timeline-date">
+              <div className="timeline-content">
+                <p className="timeline-date">
                   Jan. 2022 - Present (exp. Jun. 2025)
                 </p>
                 <h1>Computer Science and Engineering - NYU</h1>
@@ -36,8 +36,8 @@ function Experience() {
               </div>
             </li>
             <li>
-              <div class="timeline-content">
-                <p class="timeline-date">Sep. 2021 - Dec. 2021</p>
+              <div className="timeline-content">
+                <p className="timeline-date">Sep. 2021 - Dec. 2021</p>
                 <h1>Full Stack Bootcamp - UC Berkeley</h1>
                 <p>
                   Learned the MERN stack in a {""}
@@ -61,8 +61,8 @@ function Experience() {
               </div>
             </li>
             <li>
-              <div class="timeline-content">
-                <p class="timeline-date">May 2020 - Present</p>
+              <div className="timeline-content">
+                <p className="timeline-date">May 2020 - Present</p>
                 <h1>
                   Computational Materials Research Lab - San Jose State
                   University
@@ -82,8 +82,8 @@ function Experience() {
               </div>
             </li>
             <li>
-              <div class="timeline-content">
-                <p class="timeline-date">2021 - Present</p>
+              <div className="timeline-content">
+                <p className="timeline-date">2021 - Present</p>
                 <h1>YAPA Kids - Python Lead Instructor</h1>
                 <p>
                   <a href="https://yapakids.org" target="_blank">

@@ -36,7 +36,7 @@ function Nav() {
               {/* add some onclick stuff for slow scrolling? */}
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#flex-cont">Contact</a>
               {/* add some onclick stuff? */}
             </li>
           </ul>
@@ -52,7 +52,7 @@ function Nav() {
           {/* add some onclick stuff? */}
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#flex-cont">Contact</a>
           {/* add some onclick stuff? */}
         </li>
       </ul>

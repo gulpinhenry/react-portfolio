@@ -1,20 +1,30 @@
 {
   "files": {
-    "main.js": "/react-portfolio/static/js/main.c400146d.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c400146d.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.4078924f.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.c91e97bd.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.c91e97bd.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.37b83d9e.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.37b83d9e.js.map",
     "static/css/2.c706fce9.chunk.css": "/react-portfolio/static/css/2.c706fce9.chunk.css",
-    "static/js/2.9e4e27f2.chunk.js": "/react-portfolio/static/js/2.9e4e27f2.chunk.js",
-    "static/js/2.9e4e27f2.chunk.js.map": "/react-portfolio/static/js/2.9e4e27f2.chunk.js.map",
+    "static/js/2.fa91a483.chunk.js": "/react-portfolio/static/js/2.fa91a483.chunk.js",
+    "static/js/2.fa91a483.chunk.js.map": "/react-portfolio/static/js/2.fa91a483.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.c706fce9.chunk.css.map": "/react-portfolio/static/css/2.c706fce9.chunk.css.map",
-    "static/js/2.9e4e27f2.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.9e4e27f2.chunk.js.LICENSE.txt"
+    "static/css/main.4078924f.chunk.css.map": "/react-portfolio/static/css/main.4078924f.chunk.css.map",
+    "static/js/2.fa91a483.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.fa91a483.chunk.js.LICENSE.txt",
+    "static/media/21rP.10c23c06.gif": "/react-portfolio/static/media/21rP.10c23c06.gif",
+    "static/media/Resume-Henry.455c8575.pdf": "/react-portfolio/static/media/Resume-Henry.455c8575.pdf",
+    "static/media/cover.94ea6074.jpg": "/react-portfolio/static/media/cover.94ea6074.jpg",
+    "static/media/logoblack.ecf49102.JPG": "/react-portfolio/static/media/logoblack.ecf49102.JPG",
+    "static/media/purple.cbf102a9.jpg": "/react-portfolio/static/media/purple.cbf102a9.jpg",
+    "static/media/sleep-moon.56abad88.gif": "/react-portfolio/static/media/sleep-moon.56abad88.gif",
+    "static/media/workout.56e66e8a.gif": "/react-portfolio/static/media/workout.56e66e8a.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.37b83d9e.js",
     "static/css/2.c706fce9.chunk.css",
-    "static/js/2.9e4e27f2.chunk.js",
-    "static/js/main.c400146d.chunk.js"
+    "static/js/2.fa91a483.chunk.js",
+    "static/css/main.4078924f.chunk.css",
+    "static/js/main.c91e97bd.chunk.js"
   ]
 }

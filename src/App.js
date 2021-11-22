@@ -11,6 +11,8 @@ import Footer from "./components/Footer"
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css/dist/js/materialize.min.js";
 
+import "./css/style.css"
+
 function App() {
   useEffect(() => {
     M.AutoInit();

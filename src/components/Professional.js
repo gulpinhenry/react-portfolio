@@ -18,6 +18,7 @@ const styles = {
       zIndex: 5
   },
   lan:{
+    flex: "0 0 80%",
     textAlign: "left"
   },
   lanList:{
@@ -31,23 +32,25 @@ const styles = {
     paddingLeft: "12.5%"
   },
   lanLen:{
-    width: "20%",
-    border: "2px solid red"
+    flex: "0 0 20%"
     // how to make span take up a set amount of space
+  },
+  listEl: {
+    display: "flex"
   }
 };
 
 const languages = [["Java", 80], ["HTML", 60], ["CSS", 55], ["JavaScript", 60], ["Python", 40]];
-
+// chart.js
 function Professional() {
   const iterateLanguages = function(){
-    let languageList = languages.map((language)=>{
+    let languageList = languages.map((language, index)=>{
       let proficiency = "";
       for(let i = 0; i<Math.floor(language[1]/2); i++)
       {
         proficiency+= "*";
       }
-      return <li><p style = {styles.lan}><span style = {styles.lanLen}>{language[0]}</span>: {proficiency} {language[1]}%</p></li>
+      return <li key = {index} style = {styles.listEl}><p style = {styles.lanLen}>{language[0]}</p><p style = {styles.lan}>: {proficiency} {language[1]}%</p></li>
     })
     return languageList;
   }
