@@ -4,23 +4,9 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 
-const styles = {
-  container: {
-    position: "relative",
-    top: `-30vh`,
-    margin: `auto auto`,
-    left: 0,
-    right: 0,
-    height: `55vh`,
-    width: `50vw`,
-    border: `2px solid yellow`,
-    textAlign: "justify",
-    backgroundColor: "#2f394d",
-  },
-};
 function Contact() {
   return (
-    <div style={styles.container}>
+    <div id = "contact-cont">
       <div id="flex-cont">
         <div className="contact-el">
           <h4>Contact</h4>

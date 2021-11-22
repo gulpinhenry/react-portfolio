@@ -1,0 +1,8 @@
+#cover-container {
+    height: 100vh;
+    text-align: center;
+}
+#coverpic{
+    object-fit: cover;
+    z-index: -1;
+}

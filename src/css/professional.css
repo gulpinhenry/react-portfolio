@@ -1,0 +1,33 @@
+#professional{
+    text-align: center;
+    min-height: 160vh;
+}
+#pad{
+    padding-top: 50vh;
+}
+#cover-photo{
+    object-fit: cover;
+    z-index: -1;
+}
+#lan-list{
+    margin: 0 40%;
+    margin-top: 40px;
+    border: 2px solid black;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 auto;
+}
+
+#lan-list li{
+    display: flex;
+    justify-content: center;
+}
+#language-name{
+    flex: 0 0 20%;
+}
+#lan {
+    flex: 0 0 80%;
+    text-align: left;
+}

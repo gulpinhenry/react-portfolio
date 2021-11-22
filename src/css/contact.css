@@ -1,3 +1,15 @@
+#contact-cont{
+    position: relative;
+    top: -30vh;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    height: 55vh;
+    width: 50vw;
+    border: 2px solid yellow;
+    text-align: justify;
+    background-color: #2f394d;
+}
 #flex-cont{
     display: flex;
     justify-content: space-evenly;

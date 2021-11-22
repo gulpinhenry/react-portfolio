@@ -1,0 +1,16 @@
+#portfolio{
+    height: 80vh;
+    padding-top: 80px;
+    text-align: center;
+    background-color: #eee1b3;
+    color: #330036;
+}
+#portfolio-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#portfolio-subtitle{
+    padding-bottom: 30px;
+    color: #330036;
+}

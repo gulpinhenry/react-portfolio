@@ -1,0 +1,40 @@
+#bridge-container {
+    position: absolute;
+    top: 80vh;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    height: 70vh;
+    width: 40vw;
+    border: 2px solid yellow;
+    text-align: justify;
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#bridge-logo{
+    width: 200px;
+    margin: 0 auto;
+}
+#bio{
+    color: white;
+    margin: 0 10%;
+    font-size: 18px;
+    line-height: 200%;
+}
+
+#resume-btn{
+    margin: 0 35%;
+    height: 40px;
+    background: transparent;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border: 2px solid green;
+    margin-bottom: 20px;
+    z-index: 5;
+}

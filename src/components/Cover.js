@@ -1,29 +1,14 @@
 import React from "react";
 import coverPic from "../images/cover.jpg";
-import Title from "./Title"
-const styles = {
-  container: {
-    height: `100vh`,
-    textAlign: "center"
-  },
-  coverPhoto: {
-    objectFit: "cover",
-    zIndex: -1
-  },
-};
+import Title from "./Title";
+import "../css/cover.css";
+
 function Cover() {
   return (
-    <div className="parallax-container" style={styles.container}>
+    <div id="cover-container" className="parallax-container">
       <div className="parallax">
-      
-        <img
-          src={coverPic}
-          alt="henry with a ferris wheel"
-          style={styles.coverPhoto}
-        ></img>
+        <img id="coverpic" src={coverPic} alt="henry with a ferris wheel"></img>
         <Title />
-
-        
       </div>
     </div>
   );
