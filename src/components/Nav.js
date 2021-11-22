@@ -1,27 +1,17 @@
 import React from "react";
 import logo from "../images/logoblack.JPG";
-
-const styles = {
-  nav: {
-    backgroundColor: "black",
-    height: 70,
-  },
-  logo: {
-    maxHeight: 65,
-  },
-};
+import "../css/nav.css"
 
 function Nav() {
   return (
     <React.Fragment>
-      <nav style={styles.nav}>
-        <div className="nav-wrapper">
+      <nav>
+        <div className="nav-wrapper" id = "nav-cont">
           <a href="#" className="brand-logo">
             <img
-              id="logo"
+              id="logo-nav"
               src={logo}
               alt="henrykam logo"
-              style={styles.logo}
             ></img>
           </a>
           <a href="#" data-target="mobile-demo" className="sidenav-trigger">

@@ -1,0 +1,9 @@
+
+#nav-cont{
+    background-color: #111111;
+    height: 70px;
+}
+#logo-nav {
+    object-fit: contain;
+    max-height: 65px;
+}
