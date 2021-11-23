@@ -20,9 +20,9 @@ function Professional() {
       }
       return (
         <li key={index}>
-          <p id = "language-name">{language[0]}</p>
+          <p id = "language-name">{language[0]}:</p>
           <p id = "lan">
-            : {proficiency} {language[1]}%
+             {proficiency} {language[1]}%
           </p>
         </li>
       );
@@ -38,8 +38,8 @@ function Professional() {
           alt="henry with a ferris wheel"
           id = "cover-photo"
         ></img>
-        <h2 className="header">Professional</h2>
-        <h5 className="header">Knowledge of Languages</h5>
+        <h2 className="header" id = "pro-title">Professional</h2>
+        <h5 id = "pro-sub" className="header">Knowledge of Languages</h5>
         <ul id = "lan-list">{iterateLanguages()}</ul>
       </div>
     </div>

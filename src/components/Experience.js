@@ -1,17 +1,11 @@
 import React from "react";
 import "../css/experience.css";
 const styles = {
-  ht: {
-    paddingTop: "80px",
-    textAlign: "center",
-    backgroundColor: "#38182f",
-    minHeight: "202vh",
-  },
 };
 
 function Experience() {
   return (
-    <section id="exp" style={styles.ht}>
+    <section id="exp">
       <h2 className="header">Experience</h2>
       <div className="containerexp">
         <div className="timeline">

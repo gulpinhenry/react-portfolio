@@ -1,22 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap");
 
-#sub-text{
-    position: absolute;
-    font-family: 'Poppins', sans-serif;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#sub-text {
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  top: 60%;
+  left: 50%;
+  font-size: 32px;
+  transform: translate(-50%, -50%);
 }
 
 #title-text {
   position: absolute;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   left: 50%;
   top: 30%;
   transform: translate(-50%, -50%);
   display: block;
   color: purple;
-  font-size: 124px;
+  font-size: 64px;
   letter-spacing: 8px;
   cursor: pointer;
 }
@@ -56,4 +57,45 @@
   transition: 1s;
 }
 
+@media only screen and (min-width: 768px) {
+  #title-text {
+    font-size: 64px;
+  }
+  #sub-text {
+    font-size: 32px;
+    top: 50%;
+    left: 50%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #title-text {
+    font-size: 72px;
+  }
+  #sub-text {
+    font-size: 32px;
+    top: 45%;
+    left: 50%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  #title-text {
+    font-size: 96px;
+  }
+  #sub-text {
+    font-size: 48px;
+    top: 40%;
+    left: 50%;
+  }
+}
 
+@media only screen and (min-width: 2560px) {
+  #title-text {
+    font-size: 124px;
+    letter-spacing: 8px;
+  }
+  #sub-text {
+    font-size: 48px;
+    top: 40%;
+    left: 50%;
+  }
+}

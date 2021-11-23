@@ -1,40 +1,121 @@
 #bridge-container {
-    position: absolute;
+  position: absolute;
+  top: 80vh;
+  margin: auto auto;
+  left: 0;
+  right: 0;
+  height: 72vh;
+  width: 90vw;
+  border: 2px solid yellow;
+  text-align: justify;
+  background-color: #111111;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#bridge-logo {
+  height: 200px;
+  margin: 0 auto;
+}
+#bio {
+  color: white;
+  margin: 0 10%;
+  font-size: 14px;
+  line-height: 200%;
+}
+
+#resume-btn {
+  margin: 0 35%;
+  height: 40px;
+  background: transparent;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  border: 2px solid green;
+  margin-bottom: 20px;
+  z-index: 5;
+}
+@media only screen and (min-width: 320px) {
+  #bridge-container {
+    top: 70vh;
+    height: 70vh;
+    width: 90vw;
+  }
+  #bio {
+    font-size: 14px;
+    line-height: 150%;
+  }
+  #bridge-logo {
+    height: 10%;
+  }
+}
+@media only screen and (min-width: 375px) {
+  #bridge-container {
+    top: 70vh;
+    height: 75vh;
+    width: 90vw;
+  }
+  #bio {
+    font-size: 14px;
+    line-height: 175%;
+  }
+  #bridge-logo {
+    height: 10%;
+  }
+}
+@media only screen and (min-width: 425px) {
+  #bridge-container {
+    top: 68vh;
+    height: 72vh;
+    width: 90vw;
+  }
+  #bio {
+    font-size: 16px;
+    line-height: 150%;
+  }
+  #bridge-logo {
+    height: 15%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #bridge-container {
     top: 80vh;
-    margin: auto auto;
-    left: 0;
-    right: 0;
+    height: 70vh;
+    width: 70vw;
+  }
+  #bio {
+    font-size: 15px;
+  }
+  #bridge-logo {
+    height: 30%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  #bridge-container {
+    top: 80vh;
+    height: 70vh;
+    width: 50vw;
+  }
+  #bridge-logo {
+    height: 30%;
+  }
+  #bio {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  #bridge-container {
+    top: 80vh;
     height: 70vh;
     width: 40vw;
-    border: 2px solid yellow;
-    text-align: justify;
-    background-color: #111111;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-#bridge-logo{
-    width: 200px;
-    margin: 0 auto;
-}
-#bio{
-    color: white;
-    margin: 0 10%;
-    font-size: 18px;
-    line-height: 200%;
-}
-
-#resume-btn{
-    margin: 0 35%;
-    height: 40px;
-    background: transparent;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    border: 2px solid green;
-    margin-bottom: 20px;
-    z-index: 5;
+  }
+  #bio {
+    font-size: 24px;
+  }
+  #bridge-logo {
+    height: 20%;
+  }
 }

@@ -6,14 +6,14 @@ import { AiOutlineMail } from "react-icons/ai";
 
 function Contact() {
   return (
-    <div id = "contact-cont">
+    <div id="contact-cont">
       <div id="flex-cont">
         <div className="contact-el">
-          <h4>Contact</h4>
+          <h4 id = "contact-title">Contact</h4>
           <h6>
-            I'm a paragraph. Click here to add your own text and edit me. I’m a
-            great place for you to tell a story and let your users know a little
-            more about you.
+            Based in the San Franscisco Bay Area and New York City. Open to any
+            job offers and internships! Feel free to message me regarding any
+            inquiries, or if you're just bored!
           </h6>
           <br></br>
           <blockquote id="email-text">
@@ -29,40 +29,37 @@ function Contact() {
         </div>
         <form className="contact-el">
           <div className="row">
-            
-              <div className="row">
-                <div className="input-field col s6">
-                  <input id="first_name" type="text" className="validate"></input>
-                  <label htmlFor="first_name">First Name</label>
-                </div>
-                <div className="input-field col s6">
-                  <input id="last_name" type="text" className="validate"></input>
-                  <label htmlFor="last_name">Last Name</label>
-                </div>
+            <div className="row">
+              <div className="input-field col s6">
+                <input id="first_name" type="text" className="validate"></input>
+                <label htmlFor="first_name">First Name</label>
               </div>
-              <div className="row">
-                <div className="col s12">
-                  <div className="input-field">
-                    <input id="email" type="email" className="validate"></input>
-                    <label htmlFor="email">Email</label>
-                  </div>
+              <div className="input-field col s6">
+                <input id="last_name" type="text" className="validate"></input>
+                <label htmlFor="last_name">Last Name</label>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col s12">
+                <div className="input-field">
+                  <input id="email" type="email" className="validate"></input>
+                  <label htmlFor="email">Email</label>
                 </div>
               </div>
+            </div>
+            <div className="row">
               <div className="row">
-
-                  <div className="row">
-                    <div className="input-field col s12">
-                      <textarea
-                        id="textarea1"
-                        className="materialize-textarea"
-                      ></textarea>
-                      <label htmlFor="textarea1">Message</label>
-                    </div>
-                  </div>
+                <div className="input-field col s12">
+                  <textarea
+                    id="textarea1"
+                    className="materialize-textarea"
+                  ></textarea>
+                  <label htmlFor="textarea1">Message</label>
+                </div>
               </div>
-              <button type="button">Submit</button>
-              {/* onClick={handleFormSubmit} make handleform submit to prevent default, validate email and stuff */}
-            
+            </div>
+            <button id = "submit-btn" type="button">Submit</button>
+            {/* onClick={handleFormSubmit} make handleform submit to prevent default, validate email and stuff */}
           </div>
         </form>
         {/* add some onclick feature idk */}

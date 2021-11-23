@@ -10,7 +10,7 @@ function Portfolio() {
   return (
     <div id="portfolio" className="section">
       <div className="row container">
-        <h2 className="header">Portfolio</h2>
+        <h2 id = "portfolio-title" className="header">Portfolio</h2>
         <a href="https://github.com/gulpinhenry" target="_blank" rel="noreferrer">
           <h5 id = "portfolio-subtitle" className="grey-text text-darken-3 lighten-3">
             My Latest Work. See More
