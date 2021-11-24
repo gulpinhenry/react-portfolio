@@ -10,7 +10,6 @@ const languages = [
   ["JavaScript", 60],
   ["Python", 40],
 ];
-// chart.js
 function Professional() {
   const iterateLanguages = function () {
     let languageList = languages.map((language, index) => {
@@ -22,7 +21,7 @@ function Professional() {
         <li key={index}>
           <p id = "language-name">{language[0]}:</p>
           <p id = "lan">
-             {proficiency} {language[1]}%
+             <div id = "prof-bar" style = { {width: language[1]+"%"}}></div>{language[1]}%
           </p>
         </li>
       );
