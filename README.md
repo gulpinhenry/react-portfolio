@@ -1,71 +1,79 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-[https://gulpinhenry.github.io/react-portfolio]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [React Portfolio](#react-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Prerequisites](#prerequisites)
+  - [Built With](#built-with)
+  - [Technologies Used](#technologies-used)
+  - [Practices Used](#practices-used)
+  - [Deployed Link](#deployed-link)
+  - [Authors](#authors)
+  - [License](#license)
+  - [Questions](#questions)
+  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Description
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+An updated version of my portfolio! Experimenting with React!
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Click this link to go to the live site](https://gulpinhenry.github.io/react-portfolio)
+ <br />
+![Screenshot of webpage](./src/images/Capture.JPG)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Prerequisites
+Any modern internet browser will do!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Built With
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* [CreateReactApp](https://github.com/facebook/create-react-app)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [GH-pages](https://github.com/tschaub/gh-pages)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Jest](https://jestjs.io/)
+* [Materialize CSS](https://materializecss.com/)
+* [React](https://reactjs.org/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* [Microsoft Visual Studio Code](https://code.visualstudio.com/)
+* [Git Bash](https://git-scm.com/downloads)
+* [GitHub](https://github.com/)
+* [NVDA Screen Reader](https://www.nvaccess.org/)
+* [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+* [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Practices Used
 
-## Learn More
+* [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deployed Link
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* [See the Live Site!](https://gulpinhenry.github.io/react-portfolio)
 
-### Code Splitting
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+**Henry Kam**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Link to Henry's Github](https://github.com/gulpinhenry)
+- [Link to Henry's LinkedIn](https://www.linkedin.com/in/kamhenry/)
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This application is covered under the MIT license
 
-### Advanced Configuration
+## Questions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any questions, please reach out by creating an issue.
